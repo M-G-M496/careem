@@ -1,0 +1,539 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: Inter, sans-serif;
+    font-weight: 600;
+}
+
+.nav_bar {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    align-items: center;
+}
+
+
+.nav_logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 100px;
+    padding-left: 35px;
+}
+
+.nav_list ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+
+.nav_list ul a {
+    font-size: 14px;
+    line-height: 21px;
+    text-decoration: none;
+    color: rgb(88, 84, 84);
+    background-color: transparent;
+
+}
+
+.nav_list ul a:hover {
+    text-decoration: underline;
+}
+
+.sign_in {
+    padding-right: 100px;
+
+}
+
+.select {
+    font-size: 14px;
+    height: 40px;
+    width: 150px;
+    padding: 12 px;
+    border-radius: 5px;
+    position: relative;
+    left: 25px;
+    text-align: center;
+}
+
+.button {
+    background-color: rgb(0 235 121 / var(--tw-bg-opacity, 1));
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 30px;
+    padding: 5px;
+    border: none;
+    border-radius: 8px;
+    width: 70px;
+
+}
+
+.button:hover {
+    transform: scale(1.1);
+    transition: all 0.5s;
+}
+
+.video_div {
+    height: 93vh;
+    padding: 20px;
+}
+
+.video_div video {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.features_div {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 15px;
+    margin-right: 15px;
+    gap: 15px;
+
+
+}
+
+.feature_card1 {
+    border: none;
+    height: 420px;
+    width: 320px;
+    border-radius: 15px;
+    background-color: rgb(56, 55, 228);
+    padding-top: 15px;
+    padding-left: 25px;
+    color: white;
+    position: relative;
+}
+
+.feature_card2 {
+    border: none;
+    height: 420px;
+    width: 320px;
+    border-radius: 15px;
+    background-color: rgb(210, 255, 213);
+    padding-top: 15px;
+    padding-left: 25px;
+    color: rgb(0, 73, 62);
+    position: relative;
+
+}
+
+.feature_card3 {
+    order: none;
+    height: 420px;
+    width: 320px;
+    border-radius: 15px;
+    background-color: #7f5ffa;
+    padding-top: 15px;
+    padding-left: 25px;
+    color: white;
+    position: relative;
+
+}
+
+.feature_card4 {
+    border: none;
+    height: 420px;
+    width: 320px;
+    border-radius: 15px;
+    background-color: #001942;
+    padding: 15px;
+    color: white;
+    position: relative;
+
+}
+
+.card_heading {
+    font-family: "Poppins", sans-serif;
+}
+
+.card_heading h2 {
+    font-size: 54px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.card_heading h3 {
+    font-size: 40px;
+    font-weight: 700;
+    position: relative;
+    bottom: 16px;
+}
+
+.card_list ul {
+    list-style: none;
+}
+
+.card_list img {
+    position: relative;
+    top: 8px;
+}
+
+.card_icon {
+    filter: brightness(0) invert(50);
+}
+
+.arrow {
+    position: absolute;
+    bottom: 3px;
+    right: 13px;
+}
+
+#arrow2 {
+    filter: brightness(0);
+}
+
+.picture {
+    display: flex;
+    justify-content: space-between;
+    background-color: darkgreen;
+    margin-top: 60px;
+    border-radius: 20px;
+    width: 1300px;
+    margin-left: 20px;
+    height: 200px;
+    padding: 20px;
+
+}
+
+.picture_image {
+    margin: 0 50px;
+    position: relative;
+    top: 18px;
+}
+
+.picture_heading img {
+    padding: 15px 10px;
+}
+
+.picture_heading p {
+    color: white;
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: 100;
+    position: relative;
+    top: 15px;
+}
+
+.About_container {
+    margin-top: 120px;
+    display: flex;
+    justify-content: space-between;
+    /* gap: 50px; */
+    align-items: center;
+    margin-right: 130px;
+    margin-left: 130px;
+
+}
+
+
+.about_heading {
+    max-width: 450px;
+}
+
+.about_heading h3 {
+    /* text-align: center; */
+    font-size: 32px;
+    font-weight: 750;
+    line-height: 36px;
+    padding-bottom: 20px;
+    color: rgb(39, 37, 37);
+
+}
+
+.about_heading p {
+    font-weight: 600;
+    line-height: 24px;
+    color: rgb(59, 56, 56);
+}
+
+.about_heading button {
+    margin-top: 20px;
+    background-color: aquamarine;
+    border: none;
+    color: rgb(77, 69, 69);
+    padding: 8px;
+    border-radius: 10px;
+}
+
+.about_heading button:hover {
+    transform: scale(1.1);
+    transition: all 0.5s;
+}
+
+.captains {
+    background-color: aquamarine;
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 250px;
+    align-items: center;
+    position: relative;
+    clip-path: polygon(0 0,100% 0,100% 85%,0 100%);
+
+
+
+}
+
+.captain_image {
+    margin-left: 80px;
+    margin-top: px;
+}
+
+.captain_heading {
+    max-width: 450px;
+    margin-right: 250px;
+
+}
+
+.captain_heading h3 {
+    font-size: 35px;
+    font-weight: 700;
+    color: rgb(39, 38, 38);
+    padding-bottom: 18px;
+}
+
+.captain_heading p {
+    font-size: 15px;
+    line-height: 25px;
+    color: rgb(68, 64, 64);
+    padding-bottom: 25px;
+}
+
+
+.captain_heading button {
+    background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
+    border: none;
+    color: rgb(77, 69, 69);
+    padding: 8px;
+    border-radius: 10px;
+}
+
+.captain_heading button:hover {
+    transform: scale(1.1);
+    transition: all 0.5s;
+}
+
+
+.Careem_container {
+    margin-top: 140px;
+    display: flex;
+    justify-content: space-between;
+    /* gap: 50px; */
+    align-items: center;
+    margin-right: 130px;
+    margin-left: 130px;
+}
+
+.socail_container {
+    margin-top: 140px;
+    display: flex;
+    justify-content: space-between;
+    /* gap: 50px; */
+    align-items: center;
+    margin-right: 130px;
+    margin-left: 130px;
+}
+
+.BLog_div {
+    background-color: aquamarine;
+    height: 750px;
+    position: relative;
+    top: 150px;
+    clip-path: polygon(0 0,100% 0,100% 85%,0 100%);
+}
+
+.blog_heading{
+    display: flex;
+    justify-content: space-between;
+}
+
+.blog_h2 h3{
+    font-size: 32px;
+    line-height: 40px;
+    font-weight: 750;
+    position: relative;
+    top: 65px;
+    left: 70px;
+    color: rgb(44, 43, 43);
+}
+
+.blog_all{
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: 65px;
+    right: 60px;
+    gap: 15px;
+    
+}
+
+.blog_all p{
+    font-size: 22px;
+    color: rgb(32, 31, 31);
+}
+
+.blog_all{
+    filter: invert(50%);
+
+}
+
+
+.blog_container {
+    display: flex;
+    justify-content: space-between;
+    padding: 80px;
+}
+
+
+.blog_image img {
+    border: none;
+    border-radius: 30px;
+}
+
+.blog_content h3 {
+    font-size: 22px;
+    line-height: 30px;
+    max-width: 300px;
+    text-align: justify;
+    color: rgb(46, 43, 43);
+}
+
+.blog_content p {
+    max-width: 300px;
+    position: relative;
+    top: 15px;
+    color: rgb(77, 69, 69);
+}
+
+.blog_content button {
+    background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
+    border: none;
+    color: rgb(97, 89, 89);
+    padding: 8px;
+    border-radius: 10px;
+    position: relative;
+    top: 40px;
+}
+
+.blog_content button:hover {
+    transform: scale(1.1);
+    transition: all 0.5s;
+}
+
+.fisrt_footer{
+    position: relative;
+    top: 350px;
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+
+.fisrt_footer ul li{
+    list-style: none;
+    color: rgb(70, 66, 66);
+    font-size: 14px;
+    position: relative;
+    bottom: 20px;
+}
+
+.services h3{
+    position: relative;
+    bottom: 43px;
+    color: rgb(80, 77, 77);
+    font-size: 18px;
+}
+
+.careem_com{
+    position: relative;
+    left: 40px;
+} 
+
+.careem{
+    position: relative;
+    bottom: 45px;
+}
+
+.google_play{
+    position: relative;
+    bottom: 0px;
+}
+
+.andriod{
+    position: relative;
+    top: 15px;
+}
+
+.select_div{
+    position: relative;
+    right: 45px;
+}
+
+.location{
+    position: relative;
+    bottom: 38px;
+}
+
+.language{
+    position: relative;
+    bottom: 20px;
+    
+}
+
+.help_center ul li a{
+    color: rgb(63, 58, 58);
+    text-decoration: none;
+    font-size: 15px;
+    position: relative;
+    top: 20px;
+}
+
+.li2{
+    position: relative;
+    top: 0.1px;
+}
+
+.li_list{
+    position: relative;
+    top: 0.1px;
+}
+
+.second_footer{
+    height: 100px;
+    position: relative;
+    top: 400px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.paragraph p{
+    color: rgb(66, 63, 63);
+    font-size: 12px;
+    width: 100;
+    margin-left: 25px;
+}
+
+.paragraph_list{
+    display: flex;
+    gap: 20px;
+}
+
+.paragraph_list li{
+    list-style: none;
+    font-size: 15px;
+    color: rgb(94, 91, 91);
+    width: 100;
+}
+
+.icons{
+    margin-right: 20px;
+    font-size: 25px;
+}
